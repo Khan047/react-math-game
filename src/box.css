@@ -1,0 +1,104 @@
+.boxesGroup {
+  width: 380px;
+  margin: 0 auto;
+  }
+  .main{
+    width: 380px;
+    margin: 0 auto;
+    background-color: rgb(245, 168, 73);
+    border-radius: 30px;
+  }
+  .mytable{
+    position: relative;
+    width: 380px;
+   height: 380px;
+    background-color: rgb(245, 168, 73);
+  }
+  .box {
+
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+ 
+    cursor: move;
+    
+  }
+  td{
+    border-radius: 30px;
+    margin :10px;
+    padding: 5px;
+  }
+  tr:nth-child(even) {
+    background-color: #7dce91;
+    
+}
+td:nth-child(even) {
+  background-color: rgb(245, 168, 73);
+}
+ 
+  .cell {
+    
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    /* background-color: blanchedalmond; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+    padding:5px;
+    
+  }
+  table{
+    border-collapse: separate !important;
+    border-radius: 10px;
+  }
+  table tr:first-child  {
+    background-color: rgb(87, 129, 207);
+}
+table tr:first-child td:nth-child(even)  {
+  background-color: rgb(87, 129, 207);
+}
+.flex-container {
+  left: 15;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  justify-content: space-evenly;
+  -ms-box-orient: horizontal;
+  flex-wrap: wrap;
+  display: flex;
+}
+.row{
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+  
+ 
+}
+.column { 
+  position: relative;
+  
+  -webkit-flex-direction: column; 
+  flex-direction: column; 
+  float: right;
+  right: -20%;
+  bottom: 300px;
+  
+
+}
+.flex-item {
+  background: rgb(14, 160, 22);
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  
+  
+  line-height: 50px;
+  
+  font-weight: bold;
+  
+  text-align: center;
+}
